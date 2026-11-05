@@ -523,3 +523,12 @@ footer span {
     height: 280px;
   }
 }
+
+/* Főoldal – mobilos térközök */
+
+@media (max-width: 600px) {
+  .section-head {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
