@@ -532,3 +532,16 @@ footer span {
     padding-right: 8px;
   }
 }
+/* Facebook gomb – ikon és szöveg középre igazítása */
+
+.btn-facebook {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-facebook svg {
+  display: block;
+  flex-shrink: 0;
+}
